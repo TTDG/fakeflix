@@ -1,0 +1,113 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: #ffcd3c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+  background-image: url(images/img1.jpg);
+  background-size: cover;
+  padding: 20px;
+  width: auto;
+}
+header {
+  text-align: center;
+  width: auto;
+}
+h1 {
+  border: 2px solid white;
+  border-radius: 35px;
+  display: inline-block;
+  font-size: 50px;
+  margin: 10px auto;
+  color: #4a3f35;
+
+  font-family: "Leckerli One", cursive;
+  padding: 15px;
+}
+hr {
+  margin: auto;
+  border: solid whitesmoke 5px;
+  border-bottom: none;
+}
+
+.search {
+  background: #ffcd3c;
+  border: dashed white 5px;
+  width: 50%;
+  padding: 20px;
+  margin: 50px auto;
+}
+label {
+  font-size: 24px;
+  font-weight: bold;
+}
+#A01 {
+  width: 50%;
+  height: 50px;
+  font-size: 24pt;
+}
+.button {
+  margin-left: 50px;
+  background-color: #768d87;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  float: right;
+}
+.button:hover {
+  background-color: #6c7c7c;
+}
+.search:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.MovieSection {
+  background-image: url(images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  border: 2px solid white;
+  /* height: auto; */
+  width: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 3% 25%;
+  margin: 0;
+}
+li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px;
+  flex-basis: 25%;
+}
+ul li img {
+  float: right;
+  margin-top: 15px;
+}
+li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
